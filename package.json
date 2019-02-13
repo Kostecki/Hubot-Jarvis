@@ -14,7 +14,6 @@
     "hubot-google-images": "^0.2.7",
     "hubot-google-translate": "^0.2.1",
     "hubot-help": "^1.0.1",
-    "hubot-heroku-keepalive": "^1.0.3",
     "hubot-in-space": "^2.0.0",
     "hubot-kanye": "^1.0.3",
     "hubot-maps": "0.0.3",
