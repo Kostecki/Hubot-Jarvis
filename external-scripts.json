@@ -1,0 +1,22 @@
+[
+  "hubot-diagnostics",
+  "hubot-help",
+  "hubot-heroku-keepalive",
+  "hubot-google-images",
+  "hubot-google-translate",
+  "hubot-pugme-reddit",
+  "hubot-maps",
+  "hubot-redis-brain",
+  "hubot-rules",
+  "hubot-shipit",
+  "hubot-business-cat",
+  "hubot-fliptable",
+  "hubot-wikipedia",
+  "hubot-what-the-fox",
+  "hubot-ambush",
+  "hubot-cheers",
+  "hubot-morse",
+  "hubot-kanye",
+  "hubot-in-space",
+  "hubot-spotify-playlist"
+]
