@@ -1,12 +1,8 @@
 # Description:
-#   Example scripts for you to examine and try out.
+#   Replies with a button linking to the geolocator site
 #
-# Notes:
-#   They are commented out by default, because most of them are pretty silly and
-#   wouldn't be useful and amusing enough for day to day huboting.
-#   Uncomment the ones you want to try and experiment with.
-#
-#   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
+# Commands:
+#   hubot gps - Replies with a button linking to the geolocator site
 
 module.exports = (robot) ->
   robot.hear /gps/i, (msg) ->
