@@ -10,5 +10,7 @@
 
 module.exports = (robot) ->
   robot.hear /gps/i, (res, msg) ->
+    console.log res
+    console.log msg
     sender = msg.message.user.name
     res.send "Here's a link because Slack is boring and secure #{sender} \n http://israndom.win"
