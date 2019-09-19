@@ -13,9 +13,22 @@ module.exports = (robot) ->
     sender = msg.message.user.name
     # msg.send "Here's a link because Slack is boring and secure. Sender: #{sender} \n http://israndom.win"
     msg.send({
-      attachments: [{
-        title: 'title',
-        fallback: 'title',
-        title_link: 'https://google.dk'
-      }]
+      "text": "Would you like to play a game?",
+      "attachments": [
+        {
+          "text": "Choose a game to play",
+          "fallback": "You are unable to choose a game",
+          "callback_id": "wopr_game",
+          "color": "#3AA3E3",
+          "attachment_type": "default",
+          "actions": [
+            {
+              "name": "game",
+              "text": "Chess",
+              "type": "button",
+              "value": "chess"
+            }
+          ]
+        }
+      ]
     })
