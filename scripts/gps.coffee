@@ -11,4 +11,11 @@
 module.exports = (robot) ->
   robot.hear /gps/i, (msg) ->
     sender = msg.message.user.name
-    msg.send "Here's a link because Slack is boring and secure. Sender: #{sender} \n http://israndom.win"
+    # msg.send "Here's a link because Slack is boring and secure. Sender: #{sender} \n http://israndom.win"
+    msg.send({
+      attachments: [{
+        title: 'title',
+        fallback: 'title',
+        title_link: 'https://google.dk'
+      }]
+    })
