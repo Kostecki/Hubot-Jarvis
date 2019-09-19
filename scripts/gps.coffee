@@ -13,7 +13,7 @@ module.exports = (robot) ->
               "name": "game",
               "text": "Get location",
               "type": "button",
-              "value": "http://israndom.win/thunderducks?u=#{sender}"
+              "value": "http://israndom.win/thunderducks"
             }
           ]
         }
