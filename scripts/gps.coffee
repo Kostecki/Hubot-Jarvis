@@ -7,7 +7,7 @@
 module.exports = (robot) ->
   robot.hear /gps/i, (msg) ->
     sender = msg.message.user.name
-    # msg.send "Here's a link because Slack is boring and secure. Sender: #{sender} \n http://israndom.win"
+    console.log msg.message.user.room
     msg.send({
       "text": "Can't get your location directly, so here's a link because Slack is boring and secure",
       "attachments": [
@@ -21,7 +21,7 @@ module.exports = (robot) ->
               "name": "game",
               "text": "Get location",
               "type": "button",
-              "url": "http://israndom.win/thunderducks?u=#{sender}"
+              "url": "http://israndom.win/thunderducks?u=#{sender}&c=#{sender}"
             }
           ]
         }
