@@ -21,7 +21,7 @@ module.exports = (robot) ->
               "name": "game",
               "text": "Get location",
               "type": "button",
-              "url": "http://israndom.win/thunderducks?u=#{sender}&c=#{channel}"
+              "url": "http://israndom.win/thunderducks?u=#{sender}"
             }
           ]
         }
