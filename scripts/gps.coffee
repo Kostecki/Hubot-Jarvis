@@ -9,7 +9,7 @@ module.exports = (robot) ->
     sender = msg.message.user.name
     channel = msg.message.user.room
     msg.send({
-      "text": "Can't get your location directly, so here's a link because Slack is boring and secure",
+      "text": "Hey #{sender}. I can't get your location directly because Slack is boring and secure, so you have to visit this link:",
       "attachments": [
         {
           "fallback": "You are unable to get the button. Go to https://israndom.win/thunderducks",
