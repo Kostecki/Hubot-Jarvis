@@ -5,7 +5,7 @@
 #   hubot gps - Replies with a button linking to the geolocator site
 
 module.exports = (robot) ->
-  robot.hear /gps/i, (msg) ->
+  robot.hear /^gps$/i, (msg) ->
     sender = msg.message.user.name
     channel = msg.message.user.room
     msg.send({
