@@ -19,7 +19,7 @@
     "hubot-maps": "0.0.3",
     "hubot-morse": "^1.0.7",
     "hubot-pugme": "^0.1.1",
-    "hubot-pugme-reddit": "^1.0.0",
+    "hubot-pugme-reddit": "git+https://github.com/Kostecki/hubot-pugme-reddit.git",
     "hubot-redis-brain": "^1.0.0",
     "hubot-rules": "^1.0.0",
     "hubot-scripts": "^2.17.2",
