@@ -7,7 +7,7 @@
   "dependencies": {
     "hubot": "^3.2.0",
     "hubot-ambush": "0.0.3",
-    "hubot-business-cat": "^1.5.14",
+    "hubot-business-cat": "git+https://github.com/Kostecki/hubot-business-cat.git",
     "hubot-cheers": "^1.0.0",
     "hubot-diagnostics": "^1.0.0",
     "hubot-fliptable": "^2.0.0",
