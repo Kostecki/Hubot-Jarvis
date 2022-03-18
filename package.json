@@ -5,7 +5,7 @@
   "author": "Jacob Kostecki <kostecki.jacob@gmail.com>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "hubot": "^3.2.0",
+    "hubot": "3.3.2",
     "hubot-ambush": "0.0.3",
     "hubot-business-cat": "git+https://github.com/Kostecki/hubot-business-cat.git",
     "hubot-cheers": "^1.0.0",
@@ -25,6 +25,7 @@
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.1",
     "hubot-slack": "^4.6.0",
+    "hubot-task-countdown": "git+https://github.com/Kostecki/hubot-task-countdown.git",
     "hubot-what-the-fox": "^1.1.1",
     "hubot-wikipedia": "0.0.4"
   },
