@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  hubot:
+    build: ./
+    container_name: jarvis
+    restart: always
+    volumes:
+      - ${PWD}/package.json:/home/hubot/package.json
+      - ${PWD}/external-scripts.json:/home/hubot/external-scripts.json
+    ports:
+      - 8080:8080
+    env_file:
+      - .env

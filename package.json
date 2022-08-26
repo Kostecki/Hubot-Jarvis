@@ -18,7 +18,6 @@
     "hubot-kanye": "^1.0.3",
     "hubot-maps": "0.0.3",
     "hubot-morse": "^1.0.7",
-    "hubot-pugme": "^0.1.1",
     "hubot-pugme-reddit": "git+https://github.com/Kostecki/hubot-pugme-reddit.git",
     "hubot-redis-brain": "^1.0.0",
     "hubot-rules": "^1.0.0",
@@ -30,6 +29,6 @@
     "hubot-wikipedia": "0.0.4"
   },
   "engines": {
-    "node": "10.15.1"
+    "node": "14.20.0"
   }
 }
