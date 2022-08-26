@@ -32,7 +32,7 @@ ARG HUBOT_VERSION="3.3.2"
 RUN jq --arg HUBOT_VERSION "$HUBOT_VERSION" '.dependencies.hubot = $HUBOT_VERSION' package.json > /tmp/package.json \
  && mv /tmp/package.json .
 
-EXPOSE 8080
+EXPOSE 80
 
 RUN chmod +x entrypoint.sh
 ENTRYPOINT ["./entrypoint.sh"]
