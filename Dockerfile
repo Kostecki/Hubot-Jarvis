@@ -13,6 +13,8 @@ RUN addgroup -g 501 hubot \
  && adduser -D -h /hubot -u 501 -G hubot hubot
 ENV HOME /home/hubot
 WORKDIR $HOME
+COPY package.json ./
+COPY external-scripts.json ./
 COPY entrypoint.sh ./
 RUN chown -R hubot:hubot .
 USER hubot
