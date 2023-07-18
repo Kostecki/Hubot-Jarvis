@@ -2,14 +2,13 @@ name: Docker Image
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
-    
+    branches: ["master"]
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  PORTAINER_WEBHOOK: ${{ secrets.HubotJarvisPortainerWebhook }}
 
 jobs:
   build-and-push-image:
@@ -48,5 +47,5 @@ jobs:
       - name: Ping Portainer
         uses: fjogeleit/http-request-action@v1
         with:
-          url: ${{ env.PORTAINER_WEBHOOK }}
+          url: ${{ vars.PORTAINER_WEBHOOK }}
           method: "POST"
